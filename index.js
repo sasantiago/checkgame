@@ -1,4 +1,4 @@
 function press() {
-    document.getElementById ("message").InnerHTML = "Hola mundo";
-}
-press();
+    document.querySelector('.message').textContent = "¡El botón fue clickeado!";
+  }
+  
