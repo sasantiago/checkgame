@@ -1,2 +1,3 @@
-var message = document.getElementById ("message");
-InnerHTML.message = "Hola mundo"
+function press() {
+    document.getElementById ("message").InnerHTML = "Hola mundo";
+}
